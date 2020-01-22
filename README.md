@@ -17,16 +17,16 @@ A következő dokumentációval az a célunk, hogy az iránymutatások segítsé
 ### Komponensek
 - Arduino UNO Rev3 (A000066)
 
-![Alt Text]()
+![Alt Text](https://i.imgur.com/grbpmyf.jpg)
 - DHT11 Páratartalom szenzor modul
 
 ![Alt Text](https://i.imgur.com/2lH2KSz.jpg)
 - Talajnedvesség érzékelő higrométer szenzor modul
 
-![Alt Text]()
+![Alt Text](https://i.imgur.com/Am2Mjxz.jpg)
 - Karakteres LCD kijelző
 
-![Alt Text](https://i.imgur.com/hHqOGsP.jpg)
+![Alt Text](https://i.imgur.com/hHqOGsP.jpg?1)
 - Relé modul (12V)
 
 ![Alt Text](https://i.imgur.com/qFKFAxo.jpg)
@@ -35,13 +35,13 @@ A következő dokumentációval az a célunk, hogy az iránymutatások segítsé
 ![Alt Text](https://i.imgur.com/5v6nLeC.jpg)
 - Breadboard (Dugaszolós próbapanel)
 
-![Alt Text]()
+![Alt Text](https://i.imgur.com/D9MEpU4.jpg)
 - Színes Breadboard Jumper kábel (anya-apa/anya-anya)
 
 ![Alt Text](https://i.imgur.com/xM3Muh0.jpg)
 - Vízpumpa 12 V-os
 
-![Alt Text](https://i.imgur.com/c61EAnh.jpg)
+![Alt Text](https://i.imgur.com/c61EAnh.jpg?1)
 
 
 
