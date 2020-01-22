@@ -1,3 +1,1 @@
-# hekoontozo
-Wow
-Ez vajon valtozasnak szamit?
+Na akkor ha ezt ide irom, ez lesz e a kezdo oldalon
