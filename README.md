@@ -57,28 +57,15 @@ A talajnedvesség mellett a rendszer folyamatosan nézi a levegő hőmérséklet
 
 ### Lehetőségek a jövőre nézve
 
-- A rendszert folyamatosan lehet bővíteni további modulokkal, mert többet is tud egyszerre kezelni, arról nem is beszélve, hogy a nap 24 órájában üzemképes a hét minden napján.
+A rendszert folyamatosan lehet bővíteni további modulokkal, mert többet is tud egyszerre kezelni, arról nem is beszélve, hogy a nap 24 órájában üzemképes a hét minden napján.
 
 - A rendszert lehet optimalizálni több féle módon is, erre egy példa a mérés pontosítása érdekében, hogy a talaj nedvesség érzékelőt digitális jeladásról analógra állítjuk, amely lehetővé teszi pontos értékek folyamatos olvasását. Ezt a mért feszültség szint erősségéből lehet megfelelő módon kiolvasni. Az ebből származó adatokat pedig információ gyűjtés céljából dokumentálni lehet és egy adatbázisban eltárolni. A pontos adat lehetővé teszi azt is, hogy különböző igényű növényeket is lehessen kezelni vele, mert a megfelelő környezetet képesek vagyunk biztosítani a számukra. Például a paradicsomnak a nedvesebb talaj jobban kedvez, mint a száraz, viszont a kaktusz inkább a száraz talajt preferálja minimális locsolással.
 
 - Másik lehetőség, hogy a szenzorok számát (talaj nedvesség mérő, víz pumpa, hőmérő) tetszőleges mértékben is lehet növelni, ez lehetővé teszi, hogy ha otthon van 4 féle különböző növény egymástól független cserépben őket is lehet egy időben a saját igényeik szerint menedzselni. Ezzel is időt és energiát tudunk megspórolni magunk számára.
 
-- .
+- A megfelelő komponensek fejlesztésével könnyen az iparba is beépíthető rendszert kapunk. Ilyen fejlesztés példáut a víz pumpa lecserélése egy ipari környezetben is használhatóra, hogy el tudjon látni egy akát több hektárnyi területű üvegházat is. Ipari méretekben természetesen a kezelő eszközt (Arduino) célszerű egy ilyen célra alkalmas vezérlő egységre leváltani (pl.: PIC micro controller-e).
 
 - A rendszer bővíthető újabb szenzorok hozzáadásával is, például egy fényérzékelő szenzorral. Ezzel a bővítéssel megoldható lenne, hogy a növények felett elhelyezett lámpákat a fényviszony függvényében automatikusan fel illetve le kapcsolja az eszköz. Újabban kezdenek elterjedni az "okos" RGB-s LED lámpák, amik több szempontból is jók lehetnek. Wifi vagy bluetooth kapcsolat segítségével irányításuk könnyen megoldható, valamint színkód alapján akár pontos színt is megadhatunk, hogy milyen fényt kapjon a növény.
 
 - Beltéri alkalmazás mellett hasznos lehet akár egy webkamera hozzáadása a rendszerhez. Ezek  könnyen csatlakoztathatóak az internetre, ezáltal lehetővé téve, hogy távolról ránézhessünk, hogy a rendszer épp mit csinál, minden rendeltetésszerűen működik-e.
 
-
-
-System runs 24/7. Every 1 hour it checks sensors in the following order and acts based on this:
-
-1. Soil Humidity sensors. If soil humidity is lower than 60% at least at 1 plant - system activates water pump for 5 seconds. There is a limitation - no more than 2 watering/days.
-
-2. System checks air humidity and temperature. If temperature is lower than 15C --> it sends email notification "Consider to move plants inside your apartment".
-
-3. Light sensor. In case light level is lower than 60% during the day (from 9 AM till 9 PM) - system activates Wi-Fi lightning (I use Philips Hue lamp) with a soft sun-like light.
-
-Additionally system logs all the results into .txt file, that I can access remotely at any point in time.
-
-As a bonus I've enabled my old web-cam, so it takes pictures every 1 hour. Afterwards I'll be able to do great time-lapse video to see my herbs growing.
