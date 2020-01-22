@@ -58,3 +58,5 @@ A talajnedvesség mellett a rendszer folyamatosan nézi a levegő hőmérséklet
 ### Lehetőségek a jövőre nézve
 
 A felhasználó és az adott növény igényei szerint tetszőlegesen lehetne hangolni a rendszert, hogy a lehető leg optimálisabb működést érjük el.
+
+De miert?
