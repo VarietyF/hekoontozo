@@ -44,10 +44,10 @@ A következő dokumentációval az a célunk, hogy az iránymutatások segítsé
 ![Alt Text](https://i.imgur.com/c61EAnh.jpg?1)
 
 ### Kapcsolási ábra
-
+![Alt Text](https://i.imgur.com/a0c7IVJ.png)
 
 ### Kódsor
-![Alt Text](https://i.imgur.com/a0c7IVJ.png)
+
 
 ### Működése
 A rendszer folyamatosan megy, minden másodpercben ellenőrzi a szenzorokat, hogy történt-e változás a beolvasott értékekben. A kapott értéktől függően 2 dolog történhet. 
