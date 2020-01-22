@@ -59,8 +59,10 @@ A talajnedvesség mellett a rendszer folyamatosan nézi a levegő hőmérséklet
 
 A rendszert folyamatosan lehet bővíteni további modulokkal, mert többet is tud egyszerre kezelni, arról nem is beszélve, hogy a nap 24 órájában üzemképes a hét minden napján.
 
-A rendszert lehet optimalizálni több féle módon is, erre egy példa a mérés pontosítása érdekében, hogy a talaj nedvesség érzékelőt digitális jeladásról analógra állítjuk, amely lehetővé teszi pontos értékek folyamatos olvasását. Ezt a mért feszültség szint erősségéből lehet megfelelő módon kiolvasni. Az ebből származó adatokat pedig információ gyűjtés céljából dokumentálni lehet és egy adatbázisban eltárolni.
-Pontos adat -> kulonbozo novenyekhez kulonbozo ertekek megadasa
+A rendszert lehet optimalizálni több féle módon is, erre egy példa a mérés pontosítása érdekében, hogy a talaj nedvesség érzékelőt digitális jeladásról analógra állítjuk, amely lehetővé teszi pontos értékek folyamatos olvasását. Ezt a mért feszültség szint erősségéből lehet megfelelő módon kiolvasni. Az ebből származó adatokat pedig információ gyűjtés céljából dokumentálni lehet és egy adatbázisban eltárolni. A pontos adat lehetővé teszi azt is, hogy különböző igényű növényeket is lehessen kezelni velük, mert a megfelelő környezetet képesek vagyunk biztosítani a számukra. Például a paradicsomnak a nedvesebb talaj jobban kedvez, mint a száraz, viszont a kaktusz inkább a száraz talajt preferálja minimális locsolással.
+
+Másik lehetőség, hogy a szenzorok számát (talaj nedvesség mérő, víz pumpa, hőmérőt) tetszőleges mértékben is lehet növelni, ez lehetővé teszi, hogy ha otthon van 4 féle különböző növény egymástól független cserépben őket is lehet egy időben a saját igényeik szerint menedzselni. Ezzel is időt és energiát tudunk megspórolni magunk számára.
+
 
 System runs 24/7. Every 1 hour it checks sensors in the following order and acts based on this:
 
