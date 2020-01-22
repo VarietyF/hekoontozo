@@ -69,16 +69,3 @@ A rendszert folyamatosan lehet bővíteni további modulokkal, mert többet is t
 
 - Beltéri alkalmazás mellett hasznos lehet akár egy webkamera hozzáadása a rendszerhez. Ezek  könnyen csatlakoztathatóak az internetre, ezáltal lehetővé téve, hogy távolról ránézhessünk, hogy a rendszer épp mit csinál, minden rendeltetésszerűen működik-e.
 
-
-
-System runs 24/7. Every 1 hour it checks sensors in the following order and acts based on this:
-
-1. Soil Humidity sensors. If soil humidity is lower than 60% at least at 1 plant - system activates water pump for 5 seconds. There is a limitation - no more than 2 watering/days.
-
-2. System checks air humidity and temperature. If temperature is lower than 15C --> it sends email notification "Consider to move plants inside your apartment".
-
-3. Light sensor. In case light level is lower than 60% during the day (from 9 AM till 9 PM) - system activates Wi-Fi lightning (I use Philips Hue lamp) with a soft sun-like light.
-
-Additionally system logs all the results into .txt file, that I can access remotely at any point in time.
-
-As a bonus I've enabled my old web-cam, so it takes pictures every 1 hour. Afterwards I'll be able to do great time-lapse video to see my herbs growing.
