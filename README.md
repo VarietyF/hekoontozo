@@ -55,7 +55,7 @@ A rendszer folyamatosan megy, minden másodpercben ellenőrzi a szenzorokat, hog
 2. Ha már nedves a talaj, a szenzor deaktiválódik, kikapcsol a relé, lekapcsol a szivattyú, és megszűnik a locsolás.
 A talajnedvesség mellett a rendszer folyamatosan nézi a levegő hőmérsékletét és páratartalmát. Ezeket az adatokat követhetjük a kis LCD kijelzőn, valamint az olvasott adatokat kimenti egy Excel táblázatba.
 
-### Lehetőségek a jövőre nézve
+# Lehetőségek a jövőre nézve
 
 A rendszert folyamatosan lehet bővíteni további modulokkal, mert többet is tud egyszerre kezelni, arról nem is beszélve, hogy a nap 24 órájában üzemképes a hét minden napján.
 
