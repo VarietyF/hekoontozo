@@ -18,7 +18,7 @@ A következő dokumentációval az a célunk, hogy az iránymutatások segítsé
 - Arduino UNO Rev3 (A000066)
 - DHT11 Páratartalom szenzor modul
 - Talajnedvesség érzékelő higrométer szenzor modul
-- LiquidCrystal kijelző
+- Karakteres LCD kijelző
 - Relé modul (12V)
 - Tápegység 12V/1A dugvillás – 12 Watt (PL90001)
 - Breadboard (Dugaszolós próbapanel)
