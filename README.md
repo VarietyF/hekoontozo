@@ -61,3 +61,4 @@ A felhasználó és az adott növény igényei szerint tetszőlegesen lehetne ha
 
 De miert?
 mert
+Hat ez milyeen valasz???
