@@ -3,15 +3,11 @@
 ###### Hegedüs Róbert (B3Y5TF)
 
 ### Tartalomjegyzék
-###### Projekt bemutatása	
-
-###### Komponensek	
-
-###### Kapcsolási ábra	
-
-###### Kódsor	
-
-###### Források	
+1. Projekt bemutatása	
+2. Komponensek	
+3. Kapcsolási ábra	
+4. Kódsor	
+5. Források	
 
 ### Önműködő öntöző rendszer
 Témaválasztásunknál a főszempont az volt, hogy egy a hétközna-pokban alapvetően rutin feladatot, amely könnyen elfelejthető hogyan tudnánk automatizálni. Maga az automatizáció napjainkban már széleskörben elterjedt otthonainkban (pl.: automatikus lámpakapcsoló, - garázsajtó, stb.), de az iparban is teret hódított magának elég csak az autóiparra gondolni. A munkáltatónak jobban megéri, hiszen kevesebbet kell fizetnie az erőforrások után, hiszen kisebb munkaerő szükséges egy automatizált gyártósor mellé, arról nem is beszélve, hogy az emberi forrásból származó hibalehetőségek jelentősen csökkenek.
