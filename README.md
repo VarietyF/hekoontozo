@@ -57,8 +57,6 @@ A talajnedvesség mellett a rendszer folyamatosan nézi a levegő hőmérséklet
 
 ### Lehetőségek a jövőre nézve
 
-A felhasználó és az adott növény igényei szerint tetszőlegesen lehetne hangolni a rendszert, hogy a lehető leg optimálisabb működést érjük el.
+A rendszer folyamatosan lehet bővíteni további modulokkal, mert többet is tud egyszerre kezelni.
 
 De miert?
-mert
-Hat ez milyeen valasz???
