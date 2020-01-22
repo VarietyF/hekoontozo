@@ -15,4 +15,4 @@ Beltéri alkalmazás mellett hasznos lehet akár egy webkamera hozzáadása a re
 
 homerseklet
 
-Bővítési lehetőség a hőmérő passzív szerepét aktívvá váltani. A beolvasott adatok alapján megoldható, hogy a kapott értékeket email-ben, vagy telefonra a vezérlő eszköz elküldje, ha az értékek szélsőségesre változnak akkor javaslatot küldjön a felhasználónak, a termosztát megfelelő átállítására. Ha a háztartásban a termosztát újabb fejlesztésű és alkalmas az internetes csatlakozásra, annak vezérlésére is alkalmas lehet a rendszer, kiváltva ezzel az emberi beavatkozáat.
+Bővítési lehetőség a hőmérő passzív szerepét aktívvá váltani. A beolvasott adatok alapján megoldható, hogy a kapott értékeket email-ben, vagy telefonra a vezérlő eszköz elküldje, ha az értékek szélsőségesre változnak akkor javaslatot küldjön a felhasználónak, a termosztát megfelelő átállítására. Ha a háztartásban a termosztát újabb fejlesztésű és alkalmas az internetes csatlakozásra, annak vezérlésére is alkalmas lehet a rendszer, kiváltva ezzel az emberi beavatkozást.
