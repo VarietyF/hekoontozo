@@ -57,7 +57,8 @@ A talajnedvesség mellett a rendszer folyamatosan nézi a levegő hőmérséklet
 
 ### Lehetőségek a jövőre nézve
 
-A rendszer folyamatosan lehet bővíteni további modulokkal, mert többet is tud egyszerre kezelni.
+A rendszer folyamatosan lehet bővíteni további modulokkal, mert többet is tud egyszerre kezelni, arról nem is beszélve, hogy a nap 24 órájában üzemképes a hét minden napján.
+
 
 System runs 24/7. Every 1 hour it checks sensors in the following order and acts based on this:
 
