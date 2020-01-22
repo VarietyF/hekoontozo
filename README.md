@@ -6,8 +6,8 @@
 1. Projekt bemutatása	
 2. Komponensek	
 3. Kapcsolási ábra	
-4. Kódsor	
-5. Források	
+4. Kódsor
+5. Működése
 
 ### Önműködő öntöző rendszer
 Témaválasztásunknál a főszempont az volt, hogy egy a hétközna-pokban alapvetően rutin feladatot, amely könnyen elfelejthető hogyan tudnánk automatizálni. Maga az automatizáció napjainkban már széleskörben elterjedt otthonainkban (pl.: automatikus lámpakapcsoló, - garázsajtó, stb.), de az iparban is teret hódított magának elég csak az autóiparra gondolni. A munkáltatónak jobban megéri, hiszen kevesebbet kell fizetnie az erőforrások után, hiszen kisebb munkaerő szükséges egy automatizált gyártósor mellé, arról nem is beszélve, hogy az emberi forrásból származó hibalehetőségek jelentősen csökkenek.
@@ -43,8 +43,28 @@ A következő dokumentációval az a célunk, hogy az iránymutatások segítsé
 
 ![Alt Text](https://i.imgur.com/c61EAnh.jpg?1)
 
+### Kapcsolási ábra
 
 
+### Kódsor
 
 
+### Működése
+A rendszer folyamatosan megy, minden másodpercben ellenőrzi a szenzorokat, hogy történt-e változás a beolvasott értékekben. A kapott értéktől függően 2 dolog történhet. 
+1. Ha eddig száraz talajban volt a nedvesség szenzor, akkor jelet küld, hogy locsolni kéne. Aktiválja a relét, ezáltal pedig a szivattyú áramot kap és elindul a locsolás.
+2. Ha már nedves a talaj, a szenzor deaktiválódik, kikapcsol a relé, lekapcsol a szivattyú, és megszűnik a locsolás.
+A talajnedvesség mellett a rendszer folyamatosan nézi a levegő hőmérsékletét és páratartalmát. Ezeket az adatokat követhetjük a kis LCD kijelzőn, valamint az olvasott adatokat kimenti egy Excel táblázatba.
 
+### Lehetőségek a jövőre nézve
+
+Every 1 hour it checks sensors in the following order and acts based on this:
+
+1. Soil Humidity sensors. If soil humidity is lower than 60% at least at 1 plant - system activates water pump for 5 seconds. There is a limitation - no more than 2 watering/days.
+
+2. System checks air humidity and temperature. If temperature is lower than 15C --> it sends email notification "Consider to move plants inside your apartment".
+
+3. Light sensor. In case light level is lower than 60% during the day (from 9 AM till 9 PM) - system activates Wi-Fi lightning (I use Philips Hue lamp) with a soft sun-like light.
+
+Additionally system logs all the results into .txt file, that I can access remotely at any point in time.
+
+As a bonus I've enabled my old web-cam, so it takes pictures every 1 hour. Afterwards I'll be able to do great time-lapse video to see my herbs growing.
