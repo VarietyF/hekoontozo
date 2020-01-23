@@ -4,10 +4,11 @@
 
 ### Tartalomjegyzék
 1. Projekt bemutatása	
-2. Komponensek	
-3. Kapcsolási ábra	
-4. Kódsor
-5. Működése
+2. Komponensek
+3. Használati útmutató
+4. Kapcsolási ábra	
+5. Kódsor
+6. Működése
 
 # A projekt
 Témaválasztásunknál a főszempont az volt, hogy egy a hétköznapokban alapvetően rutin feladatot, amely könnyen elfelejthető hogyan tudnánk automatizálni. Maga az automatizáció napjainkban már széleskörben elterjedt otthonainkban (pl.: automatikus lámpakapcsoló, - garázsajtó, stb.), de az iparban is teret hódított magának elég csak az autóiparra gondolni. A munkáltatónak jobban megéri, hiszen kevesebbet kell fizetnie az erőforrások után, hiszen kisebb munkaerő szükséges egy automatizált gyártósor mellé, arról nem is beszélve, hogy az emberi forrásból származó hibalehetőségek jelentősen csökkenek.
@@ -42,6 +43,9 @@ A következő dokumentációval az a célunk, hogy az iránymutatások segítsé
 - Vízpumpa 12 V-os
 
 ![Alt Text](https://i.imgur.com/c61EAnh.jpg?1)
+
+### Használati útmutató
+A projektben minden szükséges szoftveres komponens csatolva van. Miután az arduino vezérlő szoftverét futtatuk, a könyvtár file-kat az erre megfelelő könyvtárba kell másolni. Ezt követően a programot tartalmazó file-t már meg lehet nyitni. Miután feltöltöttük a programot a vezérlőre, meg kell nyitni a csatolt Excel fájlt, ami lehetővé teszi az olvasott adatok folyamatos tárolását.
 
 ### Kapcsolási ábra
 ![Alt Text](https://i.imgur.com/a0c7IVJ.png)
