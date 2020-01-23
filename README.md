@@ -150,3 +150,4 @@ A rendszert folyamatosan lehet bővíteni további modulokkal, mert többet is t
 
 - Beltéri alkalmazás mellett hasznos lehet akár egy webkamera hozzáadása a rendszerhez. Ezek  könnyen csatlakoztathatóak az internetre, ezáltal lehetővé téve, hogy távolról ránézhessünk, hogy a rendszer épp mit csinál, minden rendeltetésszerűen működik-e.
 
+Sok sikert kívánunk minden vállalkozó szellemű egyénnek, aki megkívánja valósítani a projektünket!
